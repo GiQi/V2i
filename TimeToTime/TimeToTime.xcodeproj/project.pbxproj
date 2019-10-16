@@ -8,27 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		180834EE22F96C17006BDF1C /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 180834ED22F96C17006BDF1C /* Ball.m */; };
-		180A0F8D22F1A2C400AD2887 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A0F8C22F1A2C400AD2887 /* AppDelegate.m */; };
+		180A0F8D22F1A2C400AD2887 /* V2iAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A0F8C22F1A2C400AD2887 /* V2iAppDelegate.m */; };
 		180A0F9022F1A2C400AD2887 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A0F8F22F1A2C400AD2887 /* ViewController.m */; };
-		180A0F9322F1A2C400AD2887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A0F9122F1A2C400AD2887 /* Main.storyboard */; };
-		180A0F9522F1A2C500AD2887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180A0F9422F1A2C500AD2887 /* Assets.xcassets */; };
 		180A0F9822F1A2C500AD2887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A0F9622F1A2C500AD2887 /* LaunchScreen.storyboard */; };
 		180A0F9B22F1A2C500AD2887 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A0F9A22F1A2C500AD2887 /* main.m */; };
+		18B979A0235712DB002CFC9D /* V2iRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B9799F235712DB002CFC9D /* V2iRootViewController.m */; };
+		18B979A223571CC9002CFC9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B979A123571CC9002CFC9D /* Images.xcassets */; };
+		B9FB5D1BBB33E543975FAC7E /* libPods-TimeToTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9301AF00EBCDB5756A9AE4 /* libPods-TimeToTime.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		180834EC22F96C17006BDF1C /* Ball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		180834ED22F96C17006BDF1C /* Ball.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
 		180A0F8822F1A2C400AD2887 /* TimeToTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeToTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		180A0F8B22F1A2C400AD2887 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		180A0F8C22F1A2C400AD2887 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180A0F8B22F1A2C400AD2887 /* V2iAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V2iAppDelegate.h; sourceTree = "<group>"; };
+		180A0F8C22F1A2C400AD2887 /* V2iAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V2iAppDelegate.m; sourceTree = "<group>"; };
 		180A0F8E22F1A2C400AD2887 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		180A0F8F22F1A2C400AD2887 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		180A0F9222F1A2C400AD2887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		180A0F9422F1A2C500AD2887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180A0F9722F1A2C500AD2887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180A0F9922F1A2C500AD2887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180A0F9A22F1A2C500AD2887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B9799E235712DB002CFC9D /* V2iRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V2iRootViewController.h; sourceTree = "<group>"; };
+		18B9799F235712DB002CFC9D /* V2iRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V2iRootViewController.m; sourceTree = "<group>"; };
+		18B979A123571CC9002CFC9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E9301AF00EBCDB5756A9AE4 /* libPods-TimeToTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeToTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB56C54C0F279CAF3D263DCE /* Pods-TimeToTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeToTime.debug.xcconfig"; path = "Target Support Files/Pods-TimeToTime/Pods-TimeToTime.debug.xcconfig"; sourceTree = "<group>"; };
+		FA680CD220E1480F4B4C495B /* Pods-TimeToTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeToTime.release.xcconfig"; path = "Target Support Files/Pods-TimeToTime/Pods-TimeToTime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FB5D1BBB33E543975FAC7E /* libPods-TimeToTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D3D8ACEA2CAA2CF21E4C89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB56C54C0F279CAF3D263DCE /* Pods-TimeToTime.debug.xcconfig */,
+				FA680CD220E1480F4B4C495B /* Pods-TimeToTime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		180A0F7F22F1A2C400AD2887 = {
 			isa = PBXGroup;
 			children = (
 				180A0F8A22F1A2C400AD2887 /* TimeToTime */,
 				180A0F8922F1A2C400AD2887 /* Products */,
+				02D3D8ACEA2CAA2CF21E4C89 /* Pods */,
+				8D7D8AF37FB808739616A987 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +78,68 @@
 		180A0F8A22F1A2C400AD2887 /* TimeToTime */ = {
 			isa = PBXGroup;
 			children = (
-				180A0F8B22F1A2C400AD2887 /* AppDelegate.h */,
-				180A0F8C22F1A2C400AD2887 /* AppDelegate.m */,
+				18B9799B235712B1002CFC9D /* Additions */,
+				18B9799A235712B1002CFC9D /* Controller */,
+				18B9799D235712B1002CFC9D /* Managers */,
+				18B9799C235712B1002CFC9D /* Models */,
+				18B97999235712B1002CFC9D /* Views */,
+				180A0F8B22F1A2C400AD2887 /* V2iAppDelegate.h */,
+				180A0F8C22F1A2C400AD2887 /* V2iAppDelegate.m */,
 				180A0F8E22F1A2C400AD2887 /* ViewController.h */,
 				180A0F8F22F1A2C400AD2887 /* ViewController.m */,
-				180A0F9122F1A2C400AD2887 /* Main.storyboard */,
 				180834EC22F96C17006BDF1C /* Ball.h */,
 				180834ED22F96C17006BDF1C /* Ball.m */,
-				180A0F9422F1A2C500AD2887 /* Assets.xcassets */,
+				18B979A123571CC9002CFC9D /* Images.xcassets */,
 				180A0F9622F1A2C500AD2887 /* LaunchScreen.storyboard */,
 				180A0F9922F1A2C500AD2887 /* Info.plist */,
 				180A0F9A22F1A2C500AD2887 /* main.m */,
 			);
 			path = TimeToTime;
+			sourceTree = "<group>";
+		};
+		18B97999235712B1002CFC9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18B9799A235712B1002CFC9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B9799E235712DB002CFC9D /* V2iRootViewController.h */,
+				18B9799F235712DB002CFC9D /* V2iRootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18B9799B235712B1002CFC9D /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		18B9799C235712B1002CFC9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18B9799D235712B1002CFC9D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8D7D8AF37FB808739616A987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E9301AF00EBCDB5756A9AE4 /* libPods-TimeToTime.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180A0F9E22F1A2C500AD2887 /* Build configuration list for PBXNativeTarget "TimeToTime" */;
 			buildPhases = (
+				AD04B710E10ACC9F88687F4E /* [CP] Check Pods Manifest.lock */,
 				180A0F8422F1A2C400AD2887 /* Sources */,
 				180A0F8522F1A2C400AD2887 /* Frameworks */,
 				180A0F8622F1A2C400AD2887 /* Resources */,
@@ -134,12 +201,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				180A0F9822F1A2C500AD2887 /* LaunchScreen.storyboard in Resources */,
-				180A0F9522F1A2C500AD2887 /* Assets.xcassets in Resources */,
-				180A0F9322F1A2C400AD2887 /* Main.storyboard in Resources */,
+				18B979A223571CC9002CFC9D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD04B710E10ACC9F88687F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeToTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		180A0F8422F1A2C400AD2887 /* Sources */ = {
@@ -148,22 +239,15 @@
 			files = (
 				180834EE22F96C17006BDF1C /* Ball.m in Sources */,
 				180A0F9022F1A2C400AD2887 /* ViewController.m in Sources */,
+				18B979A0235712DB002CFC9D /* V2iRootViewController.m in Sources */,
 				180A0F9B22F1A2C500AD2887 /* main.m in Sources */,
-				180A0F8D22F1A2C400AD2887 /* AppDelegate.m in Sources */,
+				180A0F8D22F1A2C400AD2887 /* V2iAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		180A0F9122F1A2C400AD2887 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				180A0F9222F1A2C400AD2887 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		180A0F9622F1A2C500AD2887 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +373,7 @@
 		};
 		180A0F9F22F1A2C500AD2887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB56C54C0F279CAF3D263DCE /* Pods-TimeToTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,11 +387,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TimeToTim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 			};
 			name = Debug;
 		};
 		180A0FA022F1A2C500AD2887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA680CD220E1480F4B4C495B /* Pods-TimeToTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,6 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TimeToTim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 			};
 			name = Release;
 		};
